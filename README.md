@@ -11,7 +11,7 @@ A fast and lightweight Lua module for 3D raycasting against common collider type
 ## Usage
 
 ```lua
-local DXRaycast = loadstring(dx9.Get("github_repo_main_lua_url"))()
+local DXRaycast = loadstring(dx9.Get("https://raw.githubusercontent.com/Brycki404/DXRaycast/refs/heads/main/main.lua"))()
 
 -- Define a sphere collider
 local sphere = DXRaycast.Sphere({x=0, y=0, z=0}, 5)
